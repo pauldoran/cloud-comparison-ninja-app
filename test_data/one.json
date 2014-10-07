@@ -1,0 +1,80 @@
+{
+    "perf": {
+        "disk": {
+            "read": 494547534.0371046,
+            "write": 38540072.073624216
+        },
+        "cpu": {
+            "single_thread": 58.0434,
+            "multi_thread": 33.8944
+        },
+        "mem": 1485402275.84,
+        "internet": {
+            "server": "http://speedtest.tnp.net.uk",
+            "latency": 31.132131,
+            "downRate": 64522903.609810874,
+            "upRate": 26469830.025524255
+        }
+    },
+    "specs": {
+        "cpu": [
+            {
+                "processor": "0",
+                "vendor_id": "GenuineIntel",
+                "cpu_family": "6",
+                "model": "69",
+                "model_name": "Intel(R) Celeron(R) 2955U @ 1.40GHz",
+                "stepping": "1",
+                "microcode": "0x15",
+                "cpu_MHz": "800.000",
+                "cache_size": "2048 KB",
+                "physical_id": "0",
+                "siblings": "2",
+                "core_id": "0",
+                "cpu_cores": "2",
+                "apicid": "0",
+                "initial_apicid": "0",
+                "fpu": "yes",
+                "fpu_exception": "yes",
+                "cpuid_level": "13",
+                "wp": "yes",
+                "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer xsave rdrand lahf_lm abm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust erms invpcid",
+                "bogomips": "2793.49",
+                "clflush_size": "64",
+                "cache_alignment": "64",
+                "address_sizes": "39 bits physical, 48 bits virtual",
+                "power_management": ""
+            },
+            {
+                "processor": "1",
+                "vendor_id": "GenuineIntel",
+                "cpu_family": "6",
+                "model": "69",
+                "model_name": "Intel(R) Celeron(R) 2955U @ 1.40GHz",
+                "stepping": "1",
+                "microcode": "0x15",
+                "cpu_MHz": "800.000",
+                "cache_size": "2048 KB",
+                "physical_id": "0",
+                "siblings": "2",
+                "core_id": "1",
+                "cpu_cores": "2",
+                "apicid": "2",
+                "initial_apicid": "2",
+                "fpu": "yes",
+                "fpu_exception": "yes",
+                "cpuid_level": "13",
+                "wp": "yes",
+                "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer xsave rdrand lahf_lm abm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust erms invpcid",
+                "bogomips": "2793.49",
+                "clflush_size": "64",
+                "cache_alignment": "64",
+                "address_sizes": "39 bits physical, 48 bits virtual",
+                "power_management": ""
+            }
+        ],
+        "mem": {
+            "total": 1969250304
+        }
+    }
+}
