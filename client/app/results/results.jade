@@ -11,7 +11,9 @@ section.col-md-12.results
         th {{'COST' | translate}}
     tbody
       tr(ng-repeat='result in results')
-        td {{result.provider}}
+        td
+          {{result.provider}}
+          img.provider-logo(src='{{result.logo}}')
         td {{result.region}}
         td {{result.cpuCount}}
         td {{result.ram}}gb
