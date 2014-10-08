@@ -17,11 +17,18 @@ div(ng-include='"components/navbar/navbar.html"')
 			{{'FIGHT'| translate}}!
 
 	.col-md-12.result
-		.combatant(ng-repeat='combatant in combatants')
-			span 'Disk Read' {{combatant.perf.disk.read}}
-			span 'Disk Write' {{combatant.perf.disk.write}}
-			span 'CPU Single Thread' {{combatant.perf.cpu.single_thread}}
-			span 'CPU Multi Thread' {{combatant.perf.perf.cpu.multi_thread}}
-			span 'Memory'{{combatant.perf.mem}}
-			span 'Number of CPUs'{{combatant.specs.cpu.length}}
-			span 'Memory Total Gb'{{combatant.specs.mem.total}}
+		ul.combatant(ng-repeat='combatant in combatants')
+			li Disk Read
+				strong {{combatant.perf.disk.read}}
+			li Disk Write
+				strong {{combatant.perf.disk.write}}
+			li CPU Single Thread
+				strong {{combatant.perf.cpu.single_thread}}
+			li CPU Multi Thread
+				strong {{combatant.perf.cpu.multi_thread}}
+			li Memory
+				strong {{combatant.perf.mem}}
+			li Number of CPUs
+				strong {{combatant.specs.cpu.length}}
+			li Memory Total Gb
+				strong {{combatant.specs.mem.total}}

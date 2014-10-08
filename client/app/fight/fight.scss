@@ -4,4 +4,5 @@ body .wrapper .select h2 { margin-left: 20px; margin-right: 20px;  }
 body .wrapper .select button { margin-left: 20px; padding: 5px 20px; color: #fff; background-color: #cc5200; font-weight: 900; }
 body .wrapper .select select { padding: 10px; }
 body .wrapper .combatant  { width: 350px; float: left; display: block; margin-top: 30px;}
-body .wrapper .combatant span { display: block; }
+body .wrapper .combatant li strong {padding-left: 10px;}
+body .wrapper .combatant li {margin-bottom: 5px;}
