@@ -27,8 +27,8 @@ div(ng-include='"components/navbar/navbar.html"')
 			li CPU Multi Thread
 				strong {{combatant.perf.cpu.multi_thread}}
 			li Memory
-				strong {{combatant.perf.mem}}
+				strong {{(((combatant.perf.mem / 1024) / 1024) / 1024) | number: 2}}GB
 			li Number of CPUs
 				strong {{combatant.specs.cpu.length}}
 			li Memory Total Gb
-				strong {{combatant.specs.mem.total}}
+				strong {{(((combatant.specs.mem.total / 1024) / 1024) / 1024) | number: 2}}

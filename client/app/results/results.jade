@@ -17,6 +17,6 @@ section.col-md-12.results
           img.provider-logo(src='{{result.logo}}')
         td {{result.region}}
         td {{result.cpuCount}}
-        td {{result.ram}}gb
+        td {{ (((result.ram / 1024) / 1024) / 1024) | number: 2}}GB
         td ${{result.cost}}/hr
-        td {{result.score}}
+        td {{result.score | number: 2}}
