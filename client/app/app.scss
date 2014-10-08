@@ -78,6 +78,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 
 body { background-color: #ff9933; font-family: 'Arial', 'Arial Black', sans-serif; color: #fff;}
 header, footer, .navbar-default { background-color: #cc5200; }
+footer { display: none; }
 .navbar-default { min-height: 75px; }
 .nav.lang { float: right; clear: none; }
 .navbar-brand { padding: 0 15px; }
@@ -86,6 +87,7 @@ header, footer, .navbar-default { background-color: #cc5200; }
 .navbar-collapse.collapse { display: inline-block !important; }
 .navbar-main { width: 60% !important; float: left !important;}
 .navbarlang { width: 39% !important; float: right !important; }
+#navbarlang { margin-left: 100px; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus 
