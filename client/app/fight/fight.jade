@@ -16,10 +16,10 @@ div(ng-include='"components/navbar/navbar.html"')
 
 .col-md-12
     .combatant(ng-repeat='combatant in combatants')
-      span {{combatant.perf.disk.read}}
-      span {{combatant.perf.disk.write}}
-      span {{combatant.perf.cpu.single_thread}}
-      span {{combatant.perf.perf.cpu.multi_thread}}
-      span {{combatant.perf.mem}}
-      span {{combatant.specs.cpu.length}}
-      span {{combatant..specs.mem.total}}
+      span 'Disk Read' {{combatant.perf.disk.read}}
+      span 'Disk Write' {{combatant.perf.disk.write}}
+      span 'CPU Single Thread' {{combatant.perf.cpu.single_thread}}
+      span 'CPU Multi Thread' {{combatant.perf.perf.cpu.multi_thread}}
+      span 'Memory'{{combatant.perf.mem}}
+      span 'Number of CPUs'{{combatant.specs.cpu.length}}
+      span 'Memory Total Gb'{{combatant..specs.mem.total}}
