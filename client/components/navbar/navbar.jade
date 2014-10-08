@@ -6,7 +6,8 @@ div.navbar.navbar-default.navbar-static-top(ng-controller='NavbarCtrl')
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand(href='/') cloud-comparison-ninja
+      a.navbar-brand(href='/')
+        img(src='assets/images/ninja-logo.gif' alt='I\'m Cloud Comparison Ninja!')
 
     div#navbar-main.navbar-collapse.collapse(collapse='isCollapsed')
       ul.nav.navbar-nav
@@ -14,6 +15,6 @@ div.navbar.navbar-default.navbar-static-top(ng-controller='NavbarCtrl')
           a(ng-href='{{item.link}}') {{item.title | translate}}
 
     div#navbar-main.navbar-collapse.collapse(collapse='isCollapsed')
-      ul.nav.navbar-nav
+      ul.nav.navbar-nav.lang
         li(ng-repeat='lang in languages')
           a(ng-click='switchLanguage(lang)') {{lang.name}}
