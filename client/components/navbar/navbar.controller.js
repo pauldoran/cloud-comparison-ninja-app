@@ -11,8 +11,8 @@ angular.module('cloudComparisonNinjaApp')
       'link': '/results'
     },
     {
-      'title': 'SPIDER',
-      'link': '/spider'
+      'title': 'FIGHT',
+      'link': '/fight'
     }];
 
     $scope.languages = [{

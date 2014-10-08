@@ -2,8 +2,9 @@
 
 var enTranslations = {
   HOME: 'Home',
-  RESULTS: 'Results',
+  RESULTS: 'Compare',
   SPIDER: 'Spider',
+  FIGHT: 'Fight',
   PROVIDER: 'Provider',
   REGION: 'Region',
   CPU_COUNT: 'CPU Count',
@@ -15,8 +16,9 @@ var enTranslations = {
 
 var itTranslations = {
   HOME: 'Casa',
-  RESULTS: 'Risultati',
+  RESULTS: 'Confrontare',
   SPIDER: 'Ragno',
+  FIGHT: 'Combattere',
   PROVIDER: 'Fornitore',
   REGION: 'Regione',
   CPU_COUNT: 'CPU Contare',
