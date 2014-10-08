@@ -76,9 +76,21 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import 'modal/modal.scss';
 // endinjector
 
-body { background-color: #ff9933; }
+body { background-color: #ff9933; font-family: 'Arial', 'Arial Black', sans-serif; color: #fff;}
 header, footer, .navbar-default { background-color: #cc5200; }
+.navbar-default { min-height: 75px; }
 .nav.lang { float: right; clear: none; }
 .navbar-brand { padding: 0 15px; }
 .navbar { border: 0; }
 .navbar-nav a { height: 100%; }
+.navbar-collapse.collapse { display: inline-block !important; }
+.navbar-main { width: 60% !important; float: left !important;}
+.navbarlang { width: 39% !important; float: right !important; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus 
+{ color: #000 !important; background-color: #fff !important; font-weight: 900 !important; padding: 0 !important; 
+font-size: 20px; margin-right: 20px; margin-top: 20px; }
+.navbar-default .navbar-nav > li > a
+{ color: #fff; ont-weight: 900 !important; padding: 0 !important; 
+font-size: 20px; margin-right: 20px; margin-top: 20px; }

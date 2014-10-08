@@ -14,7 +14,7 @@ div.navbar.navbar-default.navbar-static-top(ng-controller='NavbarCtrl')
         li(ng-repeat='item in menu', ng-class='{active: isActive(item.link)}')
           a(ng-href='{{item.link}}') {{item.title | translate}}
 
-    div#navbar-main.navbar-collapse.collapse(collapse='isCollapsed')
+    div#navbarlang.navbar-collapse.collapse(collapse='isCollapsed')
       ul.nav.navbar-nav.lang
         li(ng-repeat='lang in languages')
           a(ng-click='switchLanguage(lang)') {{lang.name}}
