@@ -3,13 +3,25 @@
 var enTranslations = {
   HOME: 'Home',
   RESULTS: 'Results',
-  SPIDER: 'Spider'
+  SPIDER: 'Spider',
+  PROVIDER: 'Provider',
+  REGION: 'Region',
+  CPU_COUNT: 'CPU Count',
+  RAM: 'RAM',
+  COST: 'Cost'
+
+
 };
 
 var itTranslations = {
   HOME: 'Casa',
   RESULTS: 'Risultati',
-  SPIDER: 'Ragno'
+  SPIDER: 'Ragno',
+  PROVIDER: 'Fornitore',
+  REGION: 'Regione',
+  CPU_COUNT: 'CPU Contare',
+  RAM: 'RAM',
+  COST: 'Costo'
 };
 
 angular.module('cloudComparisonNinjaApp', [
