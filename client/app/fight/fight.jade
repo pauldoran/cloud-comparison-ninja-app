@@ -19,16 +19,16 @@ div(ng-include='"components/navbar/navbar.html"')
 	.col-md-12.result
 		ul.combatant(ng-repeat='combatant in combatants')
 			li Disk Read
-				strong {{combatant.perf.disk.read}}
+				strong {{((combatant.perf.disk.read / 1024) / 1024)}} MB/s
 			li Disk Write
-				strong {{combatant.perf.disk.write}}
+				strong {{((combatant.perf.disk.write / 1024) / 1024)}} MB/s
 			li CPU Single Thread
 				strong {{combatant.perf.cpu.single_thread}}
 			li CPU Multi Thread
 				strong {{combatant.perf.cpu.multi_thread}}
 			li Memory
-				strong {{(((combatant.perf.mem / 1024) / 1024) / 1024) | number: 2}}GB
+				strong {{(((combatant.perf.mem / 1024) / 1024) / 1024) | number: 2}} GB
 			li Number of CPUs
 				strong {{combatant.specs.cpu.length}}
 			li Memory Total Gb
-				strong {{(((combatant.specs.mem.total / 1024) / 1024) / 1024) | number: 2}}
+				strong {{(((combatant.specs.mem.total / 1024) / 1024) / 1024) | number: 2}} GB
