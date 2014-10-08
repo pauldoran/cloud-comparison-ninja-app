@@ -1,0 +1,25 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+.col-md-12
+    select(ng-model='firstProvider')
+      option(ng-repeat='provider in providers' )
+        {{provider.id}}
+
+    h2 Vs
+
+    select(ng-model='secondProvider')
+      option(ng-repeat='provider in providers')
+        {{provider.id}}
+
+    button(ng-click='fight()')
+      {{'FIGHT'| translate}}!
+
+.col-md-12
+    .combatant(ng-repeat='combatant in combatants')
+      span {{combatant.perf.disk.read}}
+      span {{combatant.perf.disk.write}}
+      span {{combatant.perf.cpu.single_thread}}
+      span {{combatant.perf.perf.cpu.multi_thread}}
+      span {{combatant.perf.mem}}
+      span {{combatant.specs.cpu.length}}
+      span {{combatant..specs.mem.total}}
