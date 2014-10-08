@@ -5,6 +5,6 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://1.mongo.msm/cloudcomparisonninja-test'
+    uri: 'mongodb://cloudcomparison.ninja/cloudcomparisonninja-test'
   }
 };
