@@ -2,12 +2,14 @@
 
 var enTranslations = {
   HOME: 'Home',
-  RESULTS: 'Results'
+  RESULTS: 'Results',
+  SPIDER: 'Spider'
 };
 
 var itTranslations = {
   HOME: 'Casa',
-  RESULTS: 'Risultati'
+  RESULTS: 'Risultati',
+  SPIDER: 'Ragno'
 };
 
 angular.module('cloudComparisonNinjaApp', [
