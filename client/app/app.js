@@ -2,12 +2,14 @@
 
 var enTranslations = {
   HOME: 'Home',
-  RESULTS: 'Results'
+  RESULTS: 'Results',
+  SPIDER: 'Spider'
 };
 
 var itTranslations = {
   HOME: 'Casa',
-  RESULTS: 'Risultati'
+  RESULTS: 'Risultati',
+  SPIDER: 'Ragno'
 };
 
 angular.module('cloudComparisonNinjaApp', [
@@ -17,7 +19,8 @@ angular.module('cloudComparisonNinjaApp', [
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'pascalprecht.translate'
+  'pascalprecht.translate',
+  'angular-radar'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
     $urlRouterProvider
@@ -26,5 +29,5 @@ angular.module('cloudComparisonNinjaApp', [
     $locationProvider.html5Mode(true);
 
     $translateProvider.translations('en', enTranslations).preferredLanguage('en');
-    $translateProvider.translations('it', itTranslations).preferredLanguage('it');
+    $translateProvider.translations('it', itTranslations);
   });

@@ -9,6 +9,10 @@ angular.module('cloudComparisonNinjaApp')
     {
       'title': 'RESULTS',
       'link': '/results'
+    },
+    {
+      'title': 'SPIDER',
+      'link': '/spider'
     }];
 
     $scope.languages = [{
