@@ -5,7 +5,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/cloudcomparisonninja-dev'
+    uri: 'mongodb://1.mongo.msm/cloudcomparisonninja-dev'
   },
 
   seedDB: true
