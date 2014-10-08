@@ -9,6 +9,7 @@ section.col-md-12.results
         th {{'CPU_COUNT' | translate}}
         th {{'RAM' | translate}}
         th {{'COST' | translate}}
+        th {{'SCORE' | translate}}
     tbody
       tr(ng-repeat='result in results')
         td
@@ -18,3 +19,4 @@ section.col-md-12.results
         td {{result.cpuCount}}
         td {{result.ram}}gb
         td ${{result.cost}}/hr
+        td {{result.score}}

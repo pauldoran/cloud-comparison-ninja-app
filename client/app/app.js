@@ -7,7 +7,7 @@ var enTranslations = {
   FIGHT: 'Fight',
   PROVIDER: 'Provider',
   REGION: 'Region',
-  CPU_COUNT: 'CPU Count',
+  CPU_COUNT: 'CPUs',
   RAM: 'RAM',
   COST: 'Cost'
 
@@ -21,7 +21,7 @@ var itTranslations = {
   FIGHT: 'Combattere',
   PROVIDER: 'Fornitore',
   REGION: 'Regione',
-  CPU_COUNT: 'CPU Contare',
+  CPU_COUNT: 'CPUs',
   RAM: 'RAM',
   COST: 'Costo'
 };
