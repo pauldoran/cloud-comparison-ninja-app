@@ -353,6 +353,7 @@ module.exports = function (grunt) {
             'assets/images/{,*/}*.{png,jpg,jpeg,gif}',
             'assets/fonts/**/*',
             'assets/js/**/*',
+            'assets/sounds/**/*.*',
             'index.html'
           ]
         }, {

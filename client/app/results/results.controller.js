@@ -2,7 +2,7 @@
 // jshint ignore: start
 angular.module('cloudComparisonNinjaApp')
   .controller('ResultsCtrl', function ($scope, $http, socket, ngAudio) {
-    ngAudio.load('assets/js/punch.wav').play();
+    ngAudio.load('assets/sounds/punch.wav').play();
     $scope.perftestresults = [];
     $scope.providers = [];
 
