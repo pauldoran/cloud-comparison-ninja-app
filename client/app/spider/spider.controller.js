@@ -1,7 +1,8 @@
 'use strict';
 // jshint ignore: start
 angular.module('cloudComparisonNinjaApp')
-  .controller('SpiderCtrl', function ($scope, $http, socket) {
+  .controller('SpiderCtrl', function ($scope, $http, socket, ngAudio) {
+    ngAudio.load("assets/js/punch.wav").play();
     $scope.results = [[]];
 
     var transformResults = function(perftestresults){
