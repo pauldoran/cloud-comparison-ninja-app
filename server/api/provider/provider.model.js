@@ -4,9 +4,11 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var ProviderSchema = new Schema({
-  name: String,
-  info: String,
-  active: Boolean
+  id: String,
+  provider: String,
+  region: String,
+  type: String,
+  cost: Number
 });
 
 module.exports = mongoose.model('Provider', ProviderSchema);

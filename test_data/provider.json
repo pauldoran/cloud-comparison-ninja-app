@@ -1,0 +1,5 @@
+{"id": "AWS01",
+ "provider": "Amazon Web Services",
+ "region": "eu-west-1a",
+ "type": "m3.medium",
+ "cost": 0.077}
