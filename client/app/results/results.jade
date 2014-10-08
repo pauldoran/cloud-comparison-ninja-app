@@ -1,7 +1,18 @@
 div(ng-include='"components/navbar/navbar.html"')
 
-.col-md-12
-    ul(ng-repeat='result in results')
-      li
-        p
-          {{result}}
+section.col-md-12.results
+  table
+    thead
+      tr
+        th
+        th {{'REGION' | translate}}
+        th {{'CPU_COUNT' | translate}}
+        th {{'RAM' | translate}}
+        th {{'COST' | translate}}
+    tbody
+      tr(ng-repeat='result in results')
+        td {{result.provider}}
+        td {{result.region}}
+        td {{result.cpuCount}}
+        td {{result.ram}}gb
+        td ${{result.cost}}/hr

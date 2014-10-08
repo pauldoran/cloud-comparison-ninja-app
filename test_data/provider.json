@@ -1,4 +1,4 @@
-{"id": "AWS01",
+{"id": "AWS001",
  "provider": "Amazon Web Services",
  "region": "eu-west-1a",
  "type": "m3.medium",
