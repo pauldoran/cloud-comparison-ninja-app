@@ -1,0 +1,9 @@
+.results table {
+	width: 70%;
+	margin: 50px auto;
+}
+
+.results table { width: 60%; margin: 50px auto; }
+.results table th { font-size: 22px; font-weight: 900; }
+.results table td { font-size: 14px; font-weight: 900; margin-bottom: 10px; padding: 10px;}
+tr:nth-child(even) {background: #cc5200;}
