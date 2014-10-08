@@ -29,6 +29,6 @@ angular.module('cloudComparisonNinjaApp')
     };
 
     $scope.switchLanguage = function(lang){
-      $translate.use(lang.langKey)
-    }
+      $translate.use(lang.langKey);
+    };
   });

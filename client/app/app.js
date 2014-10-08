@@ -1,11 +1,11 @@
 'use strict';
 
-var en_translations = {
+var enTranslations = {
   HOME: 'Home',
   RESULTS: 'Results'
 };
 
-var it_translations = {
+var itTranslations = {
   HOME: 'Casa',
   RESULTS: 'Risultati'
 };
@@ -25,6 +25,6 @@ angular.module('cloudComparisonNinjaApp', [
 
     $locationProvider.html5Mode(true);
 
-    $translateProvider.translations('en', en_translations).preferredLanguage('en');
-    $translateProvider.translations('it', it_translations).preferredLanguage('it');
+    $translateProvider.translations('en', enTranslations).preferredLanguage('en');
+    $translateProvider.translations('it', itTranslations).preferredLanguage('it');
   });
