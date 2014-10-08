@@ -10,3 +10,5 @@ Using: https://github.com/DaftMonk/generator-angular-fullstack
 grunt
 grunt serve
 grunt serve:dist
+
+ 
