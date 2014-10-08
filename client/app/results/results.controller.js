@@ -19,6 +19,7 @@ angular.module('cloudComparisonNinjaApp')
         tempResult.cpuCount = $scope.perftestresults[i].specs.cpu.length;
         tempResult.ram = $scope.perftestresults[i].specs.mem.total;
         tempResult.cost = provider.cost;
+        tempResult.logo = "assets/images/" + provider.id.split(":")[0] +".png"
         tempResults.push(tempResult);
       }
       }
