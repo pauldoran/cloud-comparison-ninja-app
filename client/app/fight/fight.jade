@@ -1,25 +1,27 @@
 div(ng-include='"components/navbar/navbar.html"')
 
-.col-md-12
-    select(ng-model='firstProvider')
-      option(ng-repeat='provider in providers' )
-        {{provider.id}}
+.wrapper
 
-    h2 Vs
+	.col-md-12.select
+		select(ng-model='firstProvider')
+			option(ng-repeat='provider in providers' )
+				{{provider.id}}
 
-    select(ng-model='secondProvider')
-      option(ng-repeat='provider in providers')
-        {{provider.id}}
+		h2 Vs
 
-    button(ng-click='fight()')
-      {{'FIGHT'| translate}}!
+		select(ng-model='secondProvider')
+			option(ng-repeat='provider in providers')
+				{{provider.id}}
 
-.col-md-12
-    .combatant(ng-repeat='combatant in combatants')
-      span 'Disk Read' {{combatant.perf.disk.read}}
-      span 'Disk Write' {{combatant.perf.disk.write}}
-      span 'CPU Single Thread' {{combatant.perf.cpu.single_thread}}
-      span 'CPU Multi Thread' {{combatant.perf.perf.cpu.multi_thread}}
-      span 'Memory'{{combatant.perf.mem}}
-      span 'Number of CPUs'{{combatant.specs.cpu.length}}
-      span 'Memory Total Gb'{{combatant..specs.mem.total}}
+		button(ng-click='fight()')
+			{{'FIGHT'| translate}}!
+
+	.col-md-12.result
+		.combatant(ng-repeat='combatant in combatants')
+			span 'Disk Read' {{combatant.perf.disk.read}}
+			span 'Disk Write' {{combatant.perf.disk.write}}
+			span 'CPU Single Thread' {{combatant.perf.cpu.single_thread}}
+			span 'CPU Multi Thread' {{combatant.perf.perf.cpu.multi_thread}}
+			span 'Memory'{{combatant.perf.mem}}
+			span 'Number of CPUs'{{combatant.specs.cpu.length}}
+			span 'Memory Total Gb'{{combatant.specs.mem.total}}
