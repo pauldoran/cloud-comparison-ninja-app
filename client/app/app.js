@@ -20,7 +20,8 @@ angular.module('cloudComparisonNinjaApp', [
   'ui.router',
   'ui.bootstrap',
   'pascalprecht.translate',
-  'angular-radar'
+  'angular-radar',
+  'ngAudio'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
     $urlRouterProvider
