@@ -27,6 +27,6 @@ angular.module('cloudComparisonNinjaApp')
       $scope.combatants.push($scope.perftestresults.filter(function(obj){
         return obj.id === $scope.secondProvider;
       })[0]);
-      // $scope.fightSound.play();
+      $scope.fightSound.play();
     };
   });
